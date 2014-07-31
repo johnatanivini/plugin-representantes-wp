@@ -1,0 +1,57 @@
+*{
+    font-family:Arial, sans-serif;
+    color:#777;
+    margin:0;
+    padding:0;
+}
+#canvas{
+    margin:0 auto;
+    width:280px;
+    position:relative;
+    float:left;
+
+}
+#paper svg{
+    top: -92px !important;
+    
+}
+.box-representantes{
+    float:left;
+    width: 70%;
+}
+.box-representantes>.titulo-mapa>h2,
+.box-representantes> p{
+    color:#ff9900;
+    text-align: right;
+}
+.est{
+    display: none;
+    float: left;
+    text-align: left;
+}
+.estados {
+    margin-top: 30px;
+    display: block;
+    height: auto;
+    overflow: auto;
+    width: 48%;
+    background: #ff9900;
+    padding: 10px;
+    border: dotted 2px #ccc;
+    box-shadow: 0 0 3px #000;
+    float: left;
+    margin-left: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    min-height: 221px;
+}
+h2 {
+    text-align: center;
+    color:#fff;
+    margin: 10px;
+}
+p{
+    margin:10px;
+    color:#fff;
+}

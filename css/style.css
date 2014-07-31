@@ -1,0 +1,19 @@
+/* 
+    Created on : 31/07/2014, 14:54:36
+    Author     : ivini
+*/
+
+.container{
+    background: #fff;
+}
+.form-control{
+    width: 100%;
+}
+select.form-control{
+    padding:10px;
+    height: auto;
+}
+.form-control[type=text]{
+    padding:20px
+}
+
