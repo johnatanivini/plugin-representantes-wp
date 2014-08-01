@@ -60,7 +60,8 @@ function representantes_basic_mapa() {
     wp_enqueue_script('raphael', plugins_url('js/mapa/raphael.js', __FILE__), false, 3.1, true);
     wp_enqueue_script('main', plugins_url('js/mapa/main.js', __FILE__), false, 3.1, true);
     wp_enqueue_style('estilo-r', plugins_url('js/mapa/css/estilo.css', __FILE__), false, 3.1, false);
-
+    
+    echo "<div id=\"mapa-geral\">";
     echo "<div id=\"canvas\">";
     echo "<div id=\"paper\"></div>";
     echo "</div>";
@@ -81,6 +82,7 @@ function representantes_basic_mapa() {
         }
         echo "</div>";
     }
+    echo "</div>";
     echo "</div>";
     echo "</div>";
     
